@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import chatbot from "../../Assets/Projects/thechatbot.png";
 import tictactoe from "../../Assets/Projects/tictactoe.png";
 import mailandesha from "../../Assets/Projects/mailandesha.png";
 import suicide from "../../Assets/Projects/suicide.png";
@@ -39,7 +39,7 @@ function Projects() {
               title="Tic-Tac-Toe"
               description="TIC_TAC_TOE game with minimax algorithm which is unbeatable"
               ghLink="https://unbeatable-tic-tac-toe-ai.netlify.app/"
-              demoLink="hhttps://unbeatable-tic-tac-toe-ai.netlify.app/"
+              demoLink="https://unbeatable-tic-tac-toe-ai.netlify.app/"
             />
           </Col>
 
@@ -55,7 +55,16 @@ function Projects() {
             />
           </Col>
 
-         
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatbot}
+              isBlog={false}
+              title="Ana_the_chatBot"
+              description="AI chatbot for tasks like : Text summarey , Ai chatbot, Image creation and JS converter"
+              ghLink="https://github.com/harshal-makwana/chatbotgpt"
+              demoLink="https://anathechatbot.netlify.app/"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
