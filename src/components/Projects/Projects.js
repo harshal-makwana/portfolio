@@ -2,12 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
 import chatbot from "../../Assets/Projects/thechatbot.png";
 import tictactoe from "../../Assets/Projects/tictactoe.png";
 import mailandesha from "../../Assets/Projects/mailandesha.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+
 
 function Projects() {
   return (
