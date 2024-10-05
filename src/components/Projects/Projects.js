@@ -63,6 +63,17 @@ function Projects() {
               demoLink="https://anathechatbot.netlify.app/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={"https://github.com/harshal-makwana/malware-detection/raw/master/malware-detection.webp"}
+              isBlog={false}
+              title="Malware_detection_using_Random__Forest"
+              description="This project is a Malware Detection System that scans files for potential malware threats using machine learning techniques. It analyzes various features of files, including size, entropy, and metadata, to predict whether a file is malware or clean."
+              ghLink="hhttps://github.com/harshal-makwana/malware-detection"
+          
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
